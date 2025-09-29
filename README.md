@@ -1,5 +1,5 @@
 # Project Title
-# Customer Shopping Experience Analysis — E-Commerce Case Study
+# Customer Revenue & Retention Insights
 - Leveraging SQL to analyze customer behavior, revenue trends, and product category contributions.
 
 
