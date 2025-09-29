@@ -6,25 +6,25 @@
 # 1️⃣ Project Overview
 
 # Objective:
-Analyze customer shopping behavior, revenue patterns, and category contributions to optimize business decisions for an e-commerce platform (Amazon-style).
+Analyze customer shopping behavior, category revenue contribution, and monthly trends to provide actionable insights for business strategy.
 
 # Role/Skills Demonstrated:
-- SQL (data extraction, joins, aggregations, CTEs)
-- Business analysis (AOV, repeat vs new customers, category contribution)
-- Data visualization (Excel/Tableau/Power BI)
-- Portfolio-ready storytelling
+- SQL: joins, aggregations, CTEs, date functions
+- Business Analytics: AOV, customer segmentation, category contribution, cohort analysis
+- Visualization: Excel / Tableau / Power BI
+- Storytelling & Data-Driven Insights
 
 # Dataset:
-- Publicly available Olist e-commerce dataset (Kaggle) (https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
-- 4 tables: orders, order_items, products, customers
+- Olist e-commerce dataset (Kaggle) (https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+- Tables: orders, order_items, products, customers
 - Covers order-level transactions, product categories, prices, freight, and customer info
 
 # 2️⃣ Problem Statement
 
-- How much are customers spending, and how does it vary by new vs repeat customers?
+- How much are customers spending, and how does it differ for new vs repeat customers?
 - Which product categories contribute most to revenue?
-- How does monthly revenue trend for new and repeat customers?
-- Insights needed to prioritize marketing, retention, and category strategies.
+- How does monthly revenue trend for new vs repeat customers?
+- Insights needed for marketing, retention, and inventory strategy.
 
 # 3️⃣ Approach & SQL Workflow
 
@@ -50,23 +50,26 @@ Analyze customer shopping behavior, revenue patterns, and category contributions
 - Export SQL results to CSV.
 - Build stacked bar charts, line charts, and monthly trend dashboards in Tableau/Power BI/Excel.
 
-#4️⃣ Key Insights / Findings
+# 4️⃣ Key Insights / Findings
 
 # 1. Average Order Value (AOV)
-Repeat customers have higher AOV than new customers → retention drives higher revenue.
-Certain categories (Electronics, Furniture) drive higher-value baskets.
+- Surprisingly, new customers have a slightly higher AOV than repeat customers.
+- This happens because repeat customers often place multiple smaller orders, while new customers occasionally place higher-value first orders.
+- Business implication:
+  - New customer acquisition campaigns may yield high-value initial sales, but retention programs should focus on increasing order frequency among repeat customers.
 
 # 2. Category Contribution
-Top 5 categories contribute ~70% of total revenue.
-Repeat customers favor premium categories, new customers favor low-ticket categories.
-Insights can guide promotion strategy and inventory planning.
+- Top 5 categories contribute ~45% of total revenue.
+- Repeat customers dominate premium categories (Electronics, Furniture), but still show smaller average basket size than new customers due to multiple low-value purchases.
+- Business implication:
+  - Marketing and inventory strategy should prioritize premium categories for repeat customers while encouraging upsell to increase their AOV.
 
 # 3. Monthly Revenue Trend
-Revenue from repeat customers grows steadily → strong retention.
-Spikes in new customer revenue indicate successful acquisition campaigns.
-Cohort trends help plan marketing and predict future revenue.
+- Revenue from repeat customers grows steadily, reflecting strong retention.
+- Spikes in new customer revenue indicate successful acquisition campaigns.
+- Cohort trends help plan marketing and predict future revenue.
 
-# 5️⃣ Visualizations (Portfolio Highlights)
+# 5️⃣ Visualizations
 
 - Stacked Bar Chart: Revenue contribution by category and customer type.
 - Line Chart: Monthly revenue trends for New vs Repeat customers.
